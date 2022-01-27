@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 300px;
+    padding: 1.8rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 25px 5px 18px #0C1729,
+        0px 30px 5px 40px #0c192c;
+}
+
+.nft {
+    width: 300px;
+    border-radius: 0.7rem;
+
+}
+
+.desc {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.value {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+
+    margin: 1rem 0.5rem 1rem 1rem;
+}
+
+.time {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-left: 0.5rem;
+    margin: 1rem 0.5rem 1rem 1rem;
+}
+
+.avatar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+hr {
+    border: 0.7px solid hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    height: -0.7px;
+    border: 50%;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name::before {
+    content: "Creation of ";
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.inner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-name {
+    margin-top: 1rem;
+}
+
+.nft-name:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+.view {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: hsla(178, 100%, 50%, 0.253);
+    opacity: 0;
+    border-radius: 0.7rem;
+}
+
+.nfthov {
+    position: relative;
+}
+
+.nfthov:hover .view {
+    opacity: 1;
+}
